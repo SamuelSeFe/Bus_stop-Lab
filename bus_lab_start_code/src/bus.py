@@ -18,6 +18,9 @@ class Bus:
     
     def empty(self):
         self.passengers = []
+# OR
+#   def empty_bus(self):
+#       self.passengers.clear()
     
     def pick_up_from_stop(self, bus_stop):
         for passenger in bus_stop.queue:

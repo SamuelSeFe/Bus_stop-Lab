@@ -8,6 +8,10 @@ class BusStop:
 
     def clear(self):
         self.queue = []
+# OR
+#   def clear(self):
+#       self.queue.clear()
+
 
     def queue_length(self):
         return len(self.queue)
